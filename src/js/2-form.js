@@ -60,9 +60,3 @@ window.addEventListener('DOMContentLoaded', () => {
 const rawData = localStorage.getItem(STORAGE_KEY);
 
 
-
-// if (rawData) {
-//     const data = JSON.parse(rawData);
-//     form.email.value = data.email;
-//     form.message.value = data.message;
-// }
