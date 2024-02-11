@@ -1,9 +1,4 @@
-'use stric';
-
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
-const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
-
+'use strict';
 
 const STORAGE_KEY = "feedback-form-state";
 const form = document.querySelector(".feedback-form");
